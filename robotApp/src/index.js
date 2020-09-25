@@ -7,7 +7,7 @@ import { createLogger } from 'redux-logger';
 import 'tachyons';
 
 import App from './containers/App';
-import registerServiceWorker from './registerServiceWorker';
+import * as serviceWorker from './serviceWorker';
 import { requestRobots, searchRobots } from './reducers'
 
 import './index.css';
@@ -16,7 +16,7 @@ const logger = createLogger()
 
 const rootReducers = combineReducers({requestRobots, searchRobots})
 
-const store = createStore(rootReducers, applyMiddleware(thunkMiddleware, logger))
+const store = createStore(rootReducers, applyMiddleware(thunkMiddleware))
 
 ReactDOM.render(
   <Provider store={store}>
@@ -24,4 +24,5 @@ ReactDOM.render(
   </Provider>,
   document.getElementById('root')
 );
-registerServiceWorker();
+
+serviceWorker.register();
