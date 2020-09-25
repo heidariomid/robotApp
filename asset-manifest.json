@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/robotApp/static/css/main.1b4593dd.chunk.css",
-    "main.js": "/robotApp/static/js/main.abc744ae.chunk.js",
-    "main.js.map": "/robotApp/static/js/main.abc744ae.chunk.js.map",
+    "main.js": "/robotApp/static/js/main.62e56ff0.chunk.js",
+    "main.js.map": "/robotApp/static/js/main.62e56ff0.chunk.js.map",
     "runtime-main.js": "/robotApp/static/js/runtime-main.84dee4ec.js",
     "runtime-main.js.map": "/robotApp/static/js/runtime-main.84dee4ec.js.map",
     "static/css/2.3c03f26f.chunk.css": "/robotApp/static/css/2.3c03f26f.chunk.css",
     "static/js/2.48cf9d23.chunk.js": "/robotApp/static/js/2.48cf9d23.chunk.js",
     "static/js/2.48cf9d23.chunk.js.map": "/robotApp/static/js/2.48cf9d23.chunk.js.map",
     "index.html": "/robotApp/index.html",
-    "precache-manifest.6a1ec348436b4db760367590805f0367.js": "/robotApp/precache-manifest.6a1ec348436b4db760367590805f0367.js",
+    "precache-manifest.ab4dfe94a99651df20cc7595ff7f0908.js": "/robotApp/precache-manifest.ab4dfe94a99651df20cc7595ff7f0908.js",
     "service-worker.js": "/robotApp/service-worker.js",
     "static/css/2.3c03f26f.chunk.css.map": "/robotApp/static/css/2.3c03f26f.chunk.css.map",
     "static/css/main.1b4593dd.chunk.css.map": "/robotApp/static/css/main.1b4593dd.chunk.css.map",
@@ -21,6 +21,6 @@
     "static/css/2.3c03f26f.chunk.css",
     "static/js/2.48cf9d23.chunk.js",
     "static/css/main.1b4593dd.chunk.css",
-    "static/js/main.abc744ae.chunk.js"
+    "static/js/main.62e56ff0.chunk.js"
   ]
 }
